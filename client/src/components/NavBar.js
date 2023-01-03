@@ -8,8 +8,8 @@ function NavBar ({user, setUser}) {
     {/* <div className='nav-btn'> */}
     <ul>
       <li className="nav-link"> <Link to="/">Home</Link> </li>
-      <li className="nav-link"> <Link to="/posts">Posts</Link> </li>
-      <li className="nav-link"> <Link to="/search">Search</Link> </li>
+      <li className="nav-link"> <Link to="/profile">Profile</Link> </li>
+      <li className="nav-link"> <Link to="/stockform">Add New Stock</Link> </li>
       <li className="nav-link"> <Link to="/logout">Logout</Link> </li>
     </ul>
   </div> 
